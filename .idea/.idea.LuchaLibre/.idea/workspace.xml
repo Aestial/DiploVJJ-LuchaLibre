@@ -5,26 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13bae2f0-f8d5-4d75-ba12-c68fba2c248b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Scripts/Actor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Scripts/Actor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Scripts/DamageData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Scripts/DamageData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Scripts/IActorState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Scripts/IActorState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/InputSystem.inputsettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/InputSystem.inputsettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/Actor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/Actor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/DamageData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/DamageData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/IActorState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/IActorState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/IdleState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/IdleState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/MoveState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/MoveState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/PlayerCharacter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/PlayerCharacter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Camera.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Camera/CameraController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Camera/CameraController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/AttackController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/AttackController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/IAttackStrategy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/IAttackStrategy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/KickAttack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/KickAttack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/PunchAttack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/PunchAttack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/AttackState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/AttackState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/BasicEnemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/BasicEnemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/ChaseState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/ChaseState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/PatrolState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/PatrolState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/ICommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/ICommand.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/InputHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/InputHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/JumpCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/JumpCommand.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/MoveCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/MoveCommand.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Main.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Main.unity.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples.meta" afterDir="false" />
@@ -239,67 +268,38 @@
       <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/UI/UI Toolkit/UnityThemes.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/UI/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/UI/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/Mobile_Renderer.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/Mobile_Renderer.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/PC_Renderer.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/PC_Renderer.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuchaLibre.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/EntitiesClientSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/MemorySettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/MultiplayerManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.polybrush/Settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/VersionControlSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-3.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-4.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-5.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-6.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-7.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-8.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-9.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuchaLibre.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true">
+  <component name="ChangesViewManager">
     <option name="groupingKeys">
       <option value="directory" />
       <option value="repository" />
@@ -309,8 +309,36 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/InputSystem.inputsettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/InputSystem.inputsettings.asset.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/InputSystem_Actions.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Scripts/IActorState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/InputSystem_Actions.inputactions" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/InputSystem_Actions.inputactions.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/DamageData.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/IActorState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/IActorState.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/MoveState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/PlayerCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Camera/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Combat/AttackController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Combat/IAttackStrategy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Combat/KickAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Enemy/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Enemy/BasicEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Enemy/ChaseState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Enemy/PatrolState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Input/ICommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Input/InputHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Input/JumpCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Input/MoveCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Main.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/ProjectSettings/Packages/com.unity.probuilder/Settings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -407,8 +435,19 @@
       <workItem from="1757355862226" duration="15000" />
       <workItem from="1757355890041" duration="1762000" />
       <workItem from="1757360340215" duration="470000" />
-      <workItem from="1757360967949" duration="2071000" />
+      <workItem from="1757360967949" duration="8019000" />
+      <workItem from="1757386717655" duration="1058000" />
+      <workItem from="1757387790362" duration="8260000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1757380717804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757380717804</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,6 +463,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
