@@ -12,7 +12,7 @@ namespace Lucha.Actor
         protected Rigidbody Rigidbody;
         protected Collider Collider;
 
-        protected Dictionary<System.Type, IActorState> States = new();
+        protected readonly Dictionary<System.Type, IActorState> States = new();
 
         protected virtual void Awake()
         {
