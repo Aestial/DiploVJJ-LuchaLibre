@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13bae2f0-f8d5-4d75-ba12-c68fba2c248b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/ActorState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/ActorState.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/Actor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/Actor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/ActorAttributeDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/ActorAttributeDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/AttackState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/AttackState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/BasicEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/BasicEnemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/ChaseState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/ChaseState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/PatrolState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/PatrolState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/PlayerCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/PlayerCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/IActorState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/IActorState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/IdleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/IdleState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/MoveState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/MoveState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lucha/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ActorStats.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ActorStats.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,38 +43,49 @@
     <setting file="file://$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Actor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/ActorAttributeDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/ActorAttributeDisplay.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/DamageData.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Enemy/AttackState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Enemy/AttackState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Enemy/BasicEnemy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Enemy/AttackState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/BasicEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Enemy/BasicEnemy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Enemy/BasicEnemy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/ChaseState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Enemy/ChaseState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Enemy/ChaseState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Enemy/PatrolState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/PatrolState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Enemy/PatrolState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/IActorState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/IActorState.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/MoveState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/PlayerCharacter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/PlayerCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/PlayerCharacter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/PlayerCharacter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Camera/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Camera/CameraController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Combat/AttackController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Combat/IAttackStrategy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Combat/KickAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Input/ICommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Input/InputHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Input/InputHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Input/InputHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Input/InputHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Input/JumpCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Input/MoveCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Main.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Main.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Main.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Main.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Materials.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/ActorStats.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Samples/Cinemachine.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/FlyAround.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/FlyAround/LightingData.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -169,7 +186,7 @@
       <workItem from="1757360967949" duration="8019000" />
       <workItem from="1757386717655" duration="1058000" />
       <workItem from="1757387790362" duration="14106000" />
-      <workItem from="1757685988315" duration="13861000" />
+      <workItem from="1757685988315" duration="18879000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -211,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757693145846</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add ActorAttributeDisplay.cs component with UI prefab">
+      <option name="closed" value="true" />
+      <created>1757703224077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757703224077</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +268,8 @@
     <MESSAGE value="Actor.cs to FixedUpdate" />
     <MESSAGE value="Update InputHandler.cs for Player Input Send Messages method" />
     <MESSAGE value="Fix CameraController.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix CameraController.cs" />
+    <MESSAGE value="Add ActorAttributeDisplay.cs component with UI prefab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ActorAttributeDisplay.cs component with UI prefab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

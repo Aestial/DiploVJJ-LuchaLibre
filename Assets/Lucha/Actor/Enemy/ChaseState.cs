@@ -1,19 +1,18 @@
-using Lucha.Actor;
 using UnityEngine;
 
-namespace Lucha.Enemy
+namespace Lucha.Actor.Enemy
 {
-    public class ChaseState : IActorState
+    public class ChaseState : ActorState
     {
         private Rigidbody _rigidbody;
         
-        public void EnterState(Actor.Actor actor)
+        public override void EnterState(Actor actor)
         {
             _rigidbody = actor.GetComponent<Rigidbody>();
              /* Setup chase */
         }
 
-        public void UpdateState(Actor.Actor actor)
+        public override void UpdateState(Actor actor)
         {
             var enemy = actor as BasicEnemy;
             if (!enemy) return;
@@ -22,12 +21,11 @@ namespace Lucha.Enemy
             _rigidbody.AddForce(direction * enemy.moveSpeed, ForceMode.Force);
             
             var distanceToPlayer = Vector3.Distance(actor.transform.position, enemy.player.position);
-            if (distanceToPlayer < enemy.detectionRange)
+            if (distanceToPlayer <= enemy.attackRange)
             {
                 enemy.ChangeState(typeof(AttackState));
             }
         }
-
-        public void ExitState(Actor.Actor actor) { /* Clean up */ }
+        public override void ExitState(Actor actor) { /* Clean up */ }
     }
 }

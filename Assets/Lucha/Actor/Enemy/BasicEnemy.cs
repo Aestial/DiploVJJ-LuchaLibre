@@ -1,21 +1,23 @@
-using System;
 using UnityEngine;
 
-namespace Lucha.Enemy
+namespace Lucha.Actor.Enemy
 {
-    public class BasicEnemy : Actor.Actor
+    public class BasicEnemy : Actor
     {
         public float detectionRange = 5f;
         public float attackRange = 1.5f;
         public float moveSpeed = 3f;
 
-        [HideInInspector]
+        //[HideInInspector]
         public Transform player;
 
         protected override void Awake()
         {
             base.Awake();
             player = GameObject.FindWithTag("Player").transform;
+            
+            if (player == null)
+                Debug.LogError("Player not found");
             
             // Add enemy-specific states
             States.Add(typeof(PatrolState), new PatrolState());

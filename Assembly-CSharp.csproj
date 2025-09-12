@@ -61,6 +61,7 @@
     <Compile Include="Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerOnSurface.cs" />
     <Compile Include="Assets/Lucha/Combat/KickAttack.cs" />
     <Compile Include="Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SamplesDynamicUI.cs" />
+    <Compile Include="Assets/Lucha/Actor/ActorState.cs" />
     <Compile Include="Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerController2D.cs" />
     <Compile Include="Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/AimTargetManager.cs" />
     <Compile Include="Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerShoot.cs" />

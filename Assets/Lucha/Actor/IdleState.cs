@@ -1,13 +1,13 @@
 namespace Lucha.Actor
 {
-    public class IdleState : IActorState
+    public class IdleState : ActorState
     {
-        public void EnterState(Lucha.Actor.Actor actor)
+        public override void EnterState(Actor actor)
         {
             // Reset movement or prepare for idle
         }
 
-        public void UpdateState(Lucha.Actor.Actor actor)
+        public override void UpdateState(Actor actor)
         {
             // Check for transition conditions
             var player = actor as PlayerCharacter;
@@ -17,7 +17,7 @@ namespace Lucha.Actor
             }
         }
 
-        public void ExitState(Lucha.Actor.Actor actor)
+        public override void ExitState(Actor actor)
         {
             // Clean up if needed
         }

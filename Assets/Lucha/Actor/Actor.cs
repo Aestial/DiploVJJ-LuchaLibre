@@ -5,9 +5,10 @@ namespace Lucha.Actor
 {
     public abstract class Actor : MonoBehaviour
     {
-        [SerializeField] protected float maxHealth = 100f;
-        protected float CurrentHealth;
-        protected IActorState CurrentState;
+        public float maxHealth = 100f;
+        public float CurrentHealth { get; private set; }
+        
+        public IActorState CurrentState;
 
         protected Rigidbody Rigidbody;
         protected Collider Collider;
