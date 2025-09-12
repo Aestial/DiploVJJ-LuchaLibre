@@ -35,7 +35,7 @@ namespace Lucha.Actor
             CurrentState.EnterState(this);
         }
 
-        protected virtual void Update()
+        protected virtual void FixedUpdate()
         {
             CurrentState?.UpdateState(this);
         }
