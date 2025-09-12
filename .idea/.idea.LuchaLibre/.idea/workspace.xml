@@ -6,8 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="13bae2f0-f8d5-4d75-ba12-c68fba2c248b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Camera/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Camera/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/AttackState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/AttackState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/BasicEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/BasicEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/ChaseState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/ChaseState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/PatrolState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/PatrolState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Actor/PlayerCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/PlayerCharacter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lucha/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +36,20 @@
     <setting file="file://$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Actor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/ActorAttributeDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/DamageData.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Enemy/AttackState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Enemy/BasicEnemy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/BasicEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/ChaseState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Enemy/ChaseState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Enemy/PatrolState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/PatrolState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/IActorState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/IActorState.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/MoveState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/PlayerCharacter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/PlayerCharacter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Camera/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Camera/CameraController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -157,7 +169,7 @@
       <workItem from="1757360967949" duration="8019000" />
       <workItem from="1757386717655" duration="1058000" />
       <workItem from="1757387790362" duration="14106000" />
-      <workItem from="1757685988315" duration="5158000" />
+      <workItem from="1757685988315" duration="13861000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -191,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757692478885</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix CameraController.cs">
+      <option name="closed" value="true" />
+      <created>1757693145846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757693145846</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +242,8 @@
     <MESSAGE value="Basic input and movement for a sphere player" />
     <MESSAGE value="Actor.cs to FixedUpdate" />
     <MESSAGE value="Update InputHandler.cs for Player Input Send Messages method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update InputHandler.cs for Player Input Send Messages method" />
+    <MESSAGE value="Fix CameraController.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix CameraController.cs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
