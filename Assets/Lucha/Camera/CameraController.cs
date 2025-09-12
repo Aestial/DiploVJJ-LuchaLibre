@@ -10,7 +10,7 @@ namespace Lucha.Camera
 
         private void LateUpdate()
         {
-            if (target) return;
+            if (!target) return;
             
             var desiredPosition = target.position + offset;
             var smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);

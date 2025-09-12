@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="13bae2f0-f8d5-4d75-ba12-c68fba2c248b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Input/InputHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Input/InputHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Camera/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Camera/CameraController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lucha/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuchaLibre.sln" beforeDir="false" afterPath="$PROJECT_DIR$/LuchaLibre.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +40,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/MoveState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/PlayerCharacter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Camera/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Camera/CameraController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Combat/AttackController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Combat/IAttackStrategy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Combat/KickAttack.cs" root0="FORCE_HIGHLIGHTING" />
@@ -55,6 +52,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Input/MoveCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Main.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Main.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Main.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Materials.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Samples/Cinemachine.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/FlyAround.meta" root0="FORCE_HIGHLIGHTING" />
@@ -159,7 +157,7 @@
       <workItem from="1757360967949" duration="8019000" />
       <workItem from="1757386717655" duration="1058000" />
       <workItem from="1757387790362" duration="14106000" />
-      <workItem from="1757685988315" duration="4498000" />
+      <workItem from="1757685988315" duration="5158000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -185,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757688023701</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update InputHandler.cs for Player Input Send Messages method">
+      <option name="closed" value="true" />
+      <created>1757692478885</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757692478885</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +221,8 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Basic input and movement for a sphere player" />
     <MESSAGE value="Actor.cs to FixedUpdate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actor.cs to FixedUpdate" />
+    <MESSAGE value="Update InputHandler.cs for Player Input Send Messages method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update InputHandler.cs for Player Input Send Messages method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

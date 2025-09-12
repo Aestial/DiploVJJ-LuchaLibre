@@ -433,7 +433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Lucha.Actor.PlayerCharacter
   maxHealth: 100
-  moveSpeed: 4
+  moveSpeed: 10
   jumpForce: 8
 --- !u!23 &827070498
 MeshRenderer:
