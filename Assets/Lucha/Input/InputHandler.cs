@@ -24,11 +24,11 @@ namespace Lucha.Input
         {
             _actions.Player.Enable();
             
-            _actions.Player.Move.performed += ctx => OnMove(ctx.ReadValue<Vector2>());
-            _actions.Player.Jump.performed += ctx => OnJump();
+            // _actions.Player.Move.performed += ctx => OnMove(ctx.ReadValue<Vector2>());
+            // _actions.Player.Jump.performed += ctx => OnJump();
         }
         
-        private void OnMove(Vector2 direction)
+        /*private void OnMove(Vector2 direction)
         {
             ICommand command = new MoveCommand(direction);
             command.Execute(_player);
@@ -38,19 +38,19 @@ namespace Lucha.Input
         {
             ICommand command = new JumpCommand();
             command.Execute(_player);
+        }*/
+        
+        private void OnMove(InputValue value)
+        {
+            var direction = value.Get<Vector2>().normalized;
+            ICommand command = new MoveCommand(direction);
+            command.Execute(_player);
         }
         
-        // private void OnMove(InputValue value)
-        // {
-        //     var direction = value.Get<Vector2>().normalized;
-        //     ICommand command = new MoveCommand(direction);
-        //     command.Execute(_player);
-        // }
-        //
-        // private void OnJump()
-        // {
-        //     ICommand command = new JumpCommand();
-        //     command.Execute(_player);
-        // }
+        private void OnJump()
+        {
+            ICommand command = new JumpCommand();
+            command.Execute(_player);
+        }
     }
 }

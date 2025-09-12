@@ -5,294 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13bae2f0-f8d5-4d75-ba12-c68fba2c248b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem.inputsettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem.inputsettings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/Actor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/Actor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/DamageData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/DamageData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/IActorState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/IActorState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/IdleState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/IdleState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/MoveState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/MoveState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/PlayerCharacter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Actor/PlayerCharacter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Camera.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Camera/CameraController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Camera/CameraController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/AttackController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/AttackController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/IAttackStrategy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/IAttackStrategy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/KickAttack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/KickAttack.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/PunchAttack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Combat/PunchAttack.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/AttackState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/AttackState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/BasicEnemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/BasicEnemy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/ChaseState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/ChaseState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/PatrolState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Enemy/PatrolState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/ICommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/ICommand.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/InputHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/InputHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/JumpCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/JumpCommand.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/MoveCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Input/MoveCommand.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Main.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Lucha/Main.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/Brain Update Modes.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/Brain Update Modes.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/ClearShot.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/ClearShot.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/Custom Blends.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/Custom Blends/BlendStyleManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/Custom Blends/BlendStyleManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/Custom Blends/Custom Blends.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/Custom Blends/Custom Blends.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/Cutscene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/Cutscene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/FlyAround.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/FlyAround.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/FreeLook Deoccluder.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/FreeLook Deoccluder.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/FreeLook on Spherical Surface.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/FreeLook on Spherical Surface.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/Impulse Wave.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/Impulse Wave.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/Lock-on Target.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/Lock-on Target.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/MixingCamera.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/MixingCamera.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/RunningRace.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/RunningRace.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/SplitScreenCar.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/SplitScreenCar.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/ThirdPersonWithAimMode.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/ThirdPersonWithAimMode.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/ThirdPersonWithRoadieRun.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/ThirdPersonWithRoadieRun.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Input System Samples.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Input System Samples/Split Screen Multiplayer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Input System Samples/Split Screen Multiplayer/ConstantOrbitalRotation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Input System Samples/Split Screen Multiplayer/ConstantOrbitalRotation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Input System Samples/Split Screen Multiplayer/CustomInputHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Input System Samples/Split Screen Multiplayer/CustomInputHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Input System Samples/Split Screen Multiplayer/PlayerCounter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Input System Samples/Split Screen Multiplayer/PlayerCounter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Input System Samples/Split Screen Multiplayer/PlayerInitializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Input System Samples/Split Screen Multiplayer/PlayerInitializer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Input System Samples/Split Screen Multiplayer/PlayerWithCameraRig.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Input System Samples/Split Screen Multiplayer/PlayerWithCameraRig.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Input System Samples/Split Screen Multiplayer/Split Screen Multiplayer.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Input System Samples/Split Screen Multiplayer/Split Screen Multiplayer.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Animations/Cameron@Idle.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Animations/Cameron@Idle.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Animations/Cameron@Jump.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Animations/Cameron@Jump.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Animations/Cameron@Run.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Animations/Cameron@Run.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Animations/Cameron@StrafeLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Animations/Cameron@StrafeLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Animations/Cameron@StrafeRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Animations/Cameron@StrafeRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Animations/Cameron@Walk.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Animations/Cameron@Walk.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Model.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Model/CameronSimpleController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Model/CameronSimpleController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Model/Cameron_Model.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Cameron/Model/Cameron_Model.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/Blue.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/Blue.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/Cameron_Enemy_Material.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/Cameron_Enemy_Material.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/Cameron_Material.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/Cameron_Material.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/Checkerboard Big Squares.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/Checkerboard Big Squares.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/Checkerboard.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/Checkerboard.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/DarkStripes.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/DarkStripes.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/GlowingGold.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/GlowingGold.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/Grey.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/Grey.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/GreyTransparent.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/GreyTransparent.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/Red.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/Red.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/ShinyDarkBlue.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Materials/ShinyDarkBlue.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Aim Target Manager.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Aim Target Manager.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Animated Cameron.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Animated Cameron.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Boss Enemy Variant.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Boss Enemy Variant.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Bullet.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Bullet.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/CapsuleCar.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/CapsuleCar.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Checkerboard Stage.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Checkerboard Stage.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Enemy.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Enemy.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/HelpUI.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/HelpUI.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/ImpulseListenerCube.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/ImpulseListenerCube.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Lane.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Lane.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Lighting.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Lighting.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Player 2D.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Player 2D.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Player.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Runner.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Runner.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Simple Room 2D.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Simple Room 2D.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Wall Section.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Prefabs/Wall Section.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/AimCameraRig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/AimCameraRig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/AimTargetManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/AimTargetManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/CursorLockManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/CursorLockManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/DampedTracker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/DampedTracker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/ExpandingAimReticle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/ExpandingAimReticle.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/FadeOutShaderController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/FadeOutShaderController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/FlyAround.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/FlyAround.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/LockPosZ.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/LockPosZ.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/LookAtTarget.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/LookAtTarget.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/Magnet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/Magnet.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/MagnetGroupController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/MagnetGroupController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/MixCamerasBasedOnSpeed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/MixCamerasBasedOnSpeed.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/RandomizedDollySpeed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/RandomizedDollySpeed.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/ReduceGroupWeightWhenBelowFloor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/ReduceGroupWeightWhenBelowFloor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/ReparentPlayerToSurface.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/ReparentPlayerToSurface.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/RigidbodyInterpolationSetter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/RigidbodyInterpolationSetter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/RunnerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/RunnerController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SamplesDynamicUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SamplesDynamicUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SamplesHelpUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SamplesHelpUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/ShotQualityBasedOnSplineCartPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/ShotQualityBasedOnSplineCartPosition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimpleBullet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimpleBullet.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimpleCarController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimpleCarController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerAimController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerAimController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerAnimator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerAnimator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerController2D.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerController2D.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerOnSurface.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerOnSurface.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerShoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SimplePlayerShoot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SpawnInRadius.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/SpawnInRadius.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/ThirdPersonFollowCameraSideSwapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/ThirdPersonFollowCameraSideSwapper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/TurnAroundPlayer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/TurnAroundPlayer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/WrapAround.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Scripts/WrapAround.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Textures/Cameron_Material_Base_Color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Textures/Cameron_Material_Base_Color.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Textures/CircleSprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Textures/CircleSprite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Textures/checkerboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Textures/checkerboard.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Textures/stripes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Textures/stripes.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Timelines.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Timelines/BackAndForthTimeline.playable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Timelines/BackAndForthTimeline.playable.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Timelines/Open Chest Timeline.playable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/Timelines/Open Chest Timeline.playable.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/UI/SampleHelpUI.uxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/UI/SampleHelpUI.uxml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/UI/SamplesUIStyle.uss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/UI/SamplesUIStyle.uss.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/UI/UI Toolkit.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/UI/UI Toolkit/PanelSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/UI/UI Toolkit/PanelSettings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/UI/UI Toolkit/UnityThemes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/UI/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/Shared Assets/UI/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-10.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-11.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-2.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-3.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-4.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-5.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-6.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-7.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-8.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-9.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuchaLibre.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LuchaLibre/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Input/InputHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Input/InputHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lucha/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lucha/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LuchaLibre.sln" beforeDir="false" afterPath="$PROJECT_DIR$/LuchaLibre.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,10 +32,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/InputSystem.inputsettings.asset.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InputSystem_Actions.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/InputSystem_Actions.inputactions" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/InputSystem_Actions.inputactions.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/Actor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/DamageData.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/BasicEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/ChaseState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/Enemy/PatrolState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/IActorState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/IActorState.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/MoveState.cs" root0="FORCE_HIGHLIGHTING" />
@@ -325,19 +47,18 @@
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Combat/AttackController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Combat/IAttackStrategy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Combat/KickAttack.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Enemy/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Enemy/BasicEnemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Enemy/ChaseState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Enemy/PatrolState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Input/ICommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Input/InputHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Input/InputHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Input/InputHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Input/JumpCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Input/MoveCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Main.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Main.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/ProjectSettings/Packages/com.unity.probuilder/Settings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lucha/Materials.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Samples/Cinemachine.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/FlyAround.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Samples/Cinemachine/3.1.4/3D Samples/FlyAround/LightingData.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -363,7 +84,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -437,7 +158,8 @@
       <workItem from="1757360340215" duration="470000" />
       <workItem from="1757360967949" duration="8019000" />
       <workItem from="1757386717655" duration="1058000" />
-      <workItem from="1757387790362" duration="8260000" />
+      <workItem from="1757387790362" duration="14106000" />
+      <workItem from="1757685988315" duration="4498000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -447,7 +169,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757380717804</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Basic input and movement for a sphere player">
+      <option name="closed" value="true" />
+      <created>1757436926472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757436926472</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Actor.cs to FixedUpdate">
+      <option name="closed" value="true" />
+      <created>1757688023701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757688023701</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,10 +199,23 @@
     <option name="unityProjectFolder" value="true" />
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Basic input and movement for a sphere player" />
+    <MESSAGE value="Actor.cs to FixedUpdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actor.cs to FixedUpdate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
