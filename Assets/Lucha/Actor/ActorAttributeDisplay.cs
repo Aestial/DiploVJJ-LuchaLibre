@@ -39,6 +39,14 @@ namespace Lucha.Actor
             { typeof(DeadState), "Dead" }
         };
 
+        private void Awake()
+        {
+            _actor = GetComponent<Actor>();
+            if (UnityEngine.Camera.main) 
+                _mainCamera = UnityEngine.Camera.main.transform;
+            _target = _actor.transform;
+        }
+
         private void OnEnable()
         {
             SubscribeToActorEvents();
@@ -51,29 +59,16 @@ namespace Lucha.Actor
 
         private void Start()
         {
-            // Get references
-            _actor = GetComponent<Actor>();
-            if (UnityEngine.Camera.main) _mainCamera = UnityEngine.Camera.main.transform;
-            _target = _actor.transform;
-            
-            if (!_actor)
-            {
-                Debug.LogError("Actor component not found in parent hierarchy!");
-                return;
-            }
+            // Create canvas if not assigned
+            if (!canvas)
+                CreateUI();
             
             // Initialize values
             _actorName = _actor.gameObject.name;
             _currentHealth = _actor.CurrentHealth;
             _maxHealth = _actor.maxHealth;
-            _currentState = "Unknown";
-
-            // Create canvas if not assigned
-            if (!canvas)
-            {
-                CreateUI();
-            }
-        
+            _currentState = _stateNames.TryGetValue(_actor.CurrentState.GetType(), out var stateName) 
+                ? stateName : _actor.CurrentState.GetType().ToString().Split('.').Last().Replace("State", "");        
             // Initial update
             UpdateDisplay();
         }

@@ -40,7 +40,10 @@
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/ActorAttributeDisplay.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/ActorAttributeDisplay.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/ActorAttributeDisplay.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/ActorAttributeDisplay.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/ActorAttributeDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/ActorAttributeDisplay.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/ActorAttributeDisplay.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/ActorAttributeDisplay.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Lucha/Actor/ActorAttributeDisplay.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///home/jaime/Developer/Unity-Projects/LuchaLibre/Assets/Lucha/Actor/DamageData.cs" root0="SKIP_HIGHLIGHTING" />
@@ -225,7 +228,7 @@
       <workItem from="1757360967949" duration="8019000" />
       <workItem from="1757386717655" duration="1058000" />
       <workItem from="1757387790362" duration="14106000" />
-      <workItem from="1757685988315" duration="35151000" />
+      <workItem from="1757685988315" duration="36194000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -291,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757758111284</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Move subscribe/unsubscribe to enable/disable in ActorAttributeDisplay.cs">
+      <option name="closed" value="true" />
+      <created>1757758862840</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1757758862840</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +337,8 @@
     <MESSAGE value="Add ActorAttributeDisplay.cs component with UI prefab" />
     <MESSAGE value="Add ActorState.cs abstract class and created two kinds of Enemy prefabs" />
     <MESSAGE value="Update ActorAttributeDisplay with progress bar and fixed State display with dictionary (remove abstract ActorState.cs)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update ActorAttributeDisplay with progress bar and fixed State display with dictionary (remove abstract ActorState.cs)" />
+    <MESSAGE value="Move subscribe/unsubscribe to enable/disable in ActorAttributeDisplay.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move subscribe/unsubscribe to enable/disable in ActorAttributeDisplay.cs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
