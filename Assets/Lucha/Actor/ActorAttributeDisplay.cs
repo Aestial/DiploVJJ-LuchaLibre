@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Lucha.Actor.Enemy;
@@ -30,20 +31,29 @@ namespace Lucha.Actor
         private string _currentState;
         private float _maxHealth;
         
-        private readonly Dictionary<System.Type, string> _stateNames = new()
+        private readonly Dictionary<Type, string> _stateNames = new()
         {
             { typeof(IdleState), "Idle" },
             { typeof(MoveState), "Moving" },
             { typeof(AttackState), "Attacking" },
             { typeof(DeadState), "Dead" }
-            // Add more state mappings as needed
         };
+
+        private void OnEnable()
+        {
+            SubscribeToActorEvents();
+        }
         
+        private void OnDisable()
+        {
+            UnsubscribeFromActorEvents();
+        }
+
         private void Start()
         {
             // Get references
             _actor = GetComponent<Actor>();
-            if (UnityEngine.Camera.main != null) _mainCamera = UnityEngine.Camera.main.transform;
+            if (UnityEngine.Camera.main) _mainCamera = UnityEngine.Camera.main.transform;
             _target = _actor.transform;
             
             if (!_actor)
@@ -59,16 +69,21 @@ namespace Lucha.Actor
             _currentState = "Unknown";
 
             // Create canvas if not assigned
-            if (canvas == null)
+            if (!canvas)
             {
                 CreateUI();
             }
-            
-            // Subscribe to events
-            SubscribeToActorEvents();
         
             // Initial update
             UpdateDisplay();
+        }
+        
+        private void LateUpdate()
+        {
+            if (!canvas || !_mainCamera) return;
+            
+            canvas.transform.LookAt(canvas.transform.position + _mainCamera.forward);
+            canvas.transform.position = _target.position + offset;
         }
         
         private void CreateUI()
@@ -79,15 +94,7 @@ namespace Lucha.Actor
             progressBar = canvasGameObject.GetComponentInChildren<ProgressBar>();
         }
         
-        private void SubscribeToActorEvents()
-        {
-            // For now, we'll use polling in Update - see alternative approach below
-            _actor.OnStateChanged += HandleStateChanged;
-            _actor.OnHealthChanged += HandleHealthChanged;
-            _actor.OnActorDied += HandleActorDied;
-        }
-        
-        private void HandleStateChanged(System.Type newStateType)
+        private void HandleStateChanged(Type newStateType)
         {
             _currentState = _stateNames.TryGetValue(newStateType, out var stateName) 
                 ? stateName : newStateType.Name.Split('.').Last().Replace("State", "");
@@ -108,14 +115,22 @@ namespace Lucha.Actor
             UpdateDisplay();
         }
         
-        private void LateUpdate()
+        private void SubscribeToActorEvents()
         {
-            if (!canvas || !_mainCamera) return;
-            
-            canvas.transform.LookAt(canvas.transform.position + _mainCamera.forward);
-            canvas.transform.position = _target.position + offset;
+            // For now, we'll use polling in Update - see alternative approach below
+            _actor.OnStateChanged += HandleStateChanged;
+            _actor.OnHealthChanged += HandleHealthChanged;
+            _actor.OnActorDied += HandleActorDied;
         }
-
+        
+        private void UnsubscribeFromActorEvents()
+        {
+            if (!_actor) return;
+            _actor.OnStateChanged -= HandleStateChanged;
+            _actor.OnHealthChanged -= HandleHealthChanged;
+            _actor.OnActorDied -= HandleActorDied;
+        }
+        
         private void UpdateDisplay()
         {
             if (!textDisplay || !_actor) return;
@@ -127,19 +142,6 @@ namespace Lucha.Actor
             
             textDisplay.text = formattedText;
             progressBar.Value = _currentHealth;
-        }
-
-        private void OnDestroy()
-        {
-            UnsubscribeFromActorEvents();
-        }
-
-        private void UnsubscribeFromActorEvents()
-        {
-            if (_actor == null) return;
-            _actor.OnStateChanged -= HandleStateChanged;
-            _actor.OnHealthChanged -= HandleHealthChanged;
-            _actor.OnActorDied -= HandleActorDied;
         }
     }
 }
