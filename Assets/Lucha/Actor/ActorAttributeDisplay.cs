@@ -1,5 +1,9 @@
+using System.Collections.Generic;
+using System.Linq;
+using Lucha.Actor.Enemy;
 using TMPro;
 using UnityEngine;
+using UnityProgressBar;
 
 namespace Lucha.Actor
 {
@@ -7,11 +11,12 @@ namespace Lucha.Actor
     {
         [Header("Display Settings")]
         public Vector3 offset = new(0, 1.5f, 0);
-        public string displayFormat = "{0}\nHP: {1}/{2}\nState: {3}";
+        public string displayFormat = "{0}\nState: {3}\nHP: {1}/{2}";
         
         [Header("UI References")]
         public Canvas canvas;
         public TextMeshProUGUI textDisplay;
+        public ProgressBar  progressBar;
         
         [Header("Fallback prefab")]
         public GameObject fallbackPrefab;
@@ -19,11 +24,21 @@ namespace Lucha.Actor
         private Transform _mainCamera;
         private Transform _target;
         private Actor _actor;
+        
         private string _actorName;
         private float _currentHealth;
-        private float _maxHealth;
         private string _currentState;
-
+        private float _maxHealth;
+        
+        private readonly Dictionary<System.Type, string> _stateNames = new()
+        {
+            { typeof(IdleState), "Idle" },
+            { typeof(MoveState), "Moving" },
+            { typeof(AttackState), "Attacking" },
+            { typeof(DeadState), "Dead" }
+            // Add more state mappings as needed
+        };
+        
         private void Start()
         {
             // Get references
@@ -31,7 +46,7 @@ namespace Lucha.Actor
             if (UnityEngine.Camera.main != null) _mainCamera = UnityEngine.Camera.main.transform;
             _target = _actor.transform;
             
-            if (_actor == null)
+            if (!_actor)
             {
                 Debug.LogError("Actor component not found in parent hierarchy!");
                 return;
@@ -55,33 +70,50 @@ namespace Lucha.Actor
             // Initial update
             UpdateDisplay();
         }
-
+        
         private void CreateUI()
         {
             var canvasGameObject = Instantiate(fallbackPrefab);
             canvas = canvasGameObject.GetComponent<Canvas>();
             textDisplay = canvasGameObject.GetComponentInChildren<TextMeshProUGUI>();
+            progressBar = canvasGameObject.GetComponentInChildren<ProgressBar>();
         }
         
-        void SubscribeToActorEvents()
+        private void SubscribeToActorEvents()
         {
-            // You'll need to add these events to your Actor class
             // For now, we'll use polling in Update - see alternative approach below
+            _actor.OnStateChanged += HandleStateChanged;
+            _actor.OnHealthChanged += HandleHealthChanged;
+            _actor.OnActorDied += HandleActorDied;
+        }
+        
+        private void HandleStateChanged(System.Type newStateType)
+        {
+            _currentState = _stateNames.TryGetValue(newStateType, out var stateName) 
+                ? stateName : newStateType.Name.Split('.').Last().Replace("State", "");
+            UpdateDisplay();
+        }
+        
+        private void HandleHealthChanged(float newCurrentHealth, float newMaxHealth)
+        {
+            _currentHealth = newCurrentHealth;
+            _maxHealth = newMaxHealth;
+            UpdateDisplay();
         }
 
+        private void HandleActorDied(string objName)
+        {
+            _actorName = $"{objName}[DEAD]";
+            progressBar.gameObject.SetActive(false);
+            UpdateDisplay();
+        }
+        
         private void LateUpdate()
         {
             if (!canvas || !_mainCamera) return;
-            // Keep the canvas facing the camera (billboard-ing)
+            
             canvas.transform.LookAt(canvas.transform.position + _mainCamera.forward);
-            
-            // Optional: Keep the canvas at a fixed position above the character
             canvas.transform.position = _target.position + offset;
-            
-            _currentHealth = _actor.CurrentHealth;
-            _currentState = _actor.CurrentState.ToString();
-            
-            UpdateDisplay();
         }
 
         private void UpdateDisplay()
@@ -94,6 +126,7 @@ namespace Lucha.Actor
                 _currentState);
             
             textDisplay.text = formattedText;
+            progressBar.Value = _currentHealth;
         }
 
         private void OnDestroy()
@@ -103,7 +136,10 @@ namespace Lucha.Actor
 
         private void UnsubscribeFromActorEvents()
         {
-            // Unsubscribe from events when destroyed
+            if (_actor == null) return;
+            _actor.OnStateChanged -= HandleStateChanged;
+            _actor.OnHealthChanged -= HandleHealthChanged;
+            _actor.OnActorDied -= HandleActorDied;
         }
     }
 }

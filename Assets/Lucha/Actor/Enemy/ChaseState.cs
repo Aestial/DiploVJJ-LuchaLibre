@@ -2,17 +2,17 @@ using UnityEngine;
 
 namespace Lucha.Actor.Enemy
 {
-    public class ChaseState : ActorState
+    public class ChaseState : IActorState
     {
         private Rigidbody _rigidbody;
         
-        public override void EnterState(Actor actor)
+        public void EnterState(Actor actor)
         {
             _rigidbody = actor.GetComponent<Rigidbody>();
              /* Setup chase */
         }
 
-        public override void UpdateState(Actor actor)
+        public void UpdateState(Actor actor)
         {
             var enemy = actor as BasicEnemy;
             if (!enemy) return;
@@ -26,6 +26,6 @@ namespace Lucha.Actor.Enemy
                 enemy.ChangeState(typeof(AttackState));
             }
         }
-        public override void ExitState(Actor actor) { /* Clean up */ }
+        public void ExitState(Actor actor) { /* Clean up */ }
     }
 }

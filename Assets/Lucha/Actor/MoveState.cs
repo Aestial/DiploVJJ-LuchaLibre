@@ -1,13 +1,13 @@
 namespace Lucha.Actor
 {
-    public class MoveState : ActorState
+    public class MoveState : IActorState
     {
-        public override void EnterState(Actor actor)
+        public void EnterState(Actor actor)
         {
             // Prepare for movement
         }
 
-        public override void UpdateState(Actor actor)
+        public void UpdateState(Actor actor)
         {
             var player = actor as PlayerCharacter;
             if (!player) return;
@@ -20,7 +20,7 @@ namespace Lucha.Actor
             }
         }
 
-        public override void ExitState(Actor actor)
+        public void ExitState(Actor actor)
         {
             // Clean up if needed
         }

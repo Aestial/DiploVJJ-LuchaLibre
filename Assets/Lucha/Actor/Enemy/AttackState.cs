@@ -2,11 +2,11 @@ using UnityEngine;
 
 namespace Lucha.Actor.Enemy
 {
-    public class AttackState : ActorState
+    public class AttackState : IActorState
     {
-        public override void EnterState(Actor actor) { /* Setup attack */ }
+        public void EnterState(Actor actor) { /* Setup attack */ }
 
-        public override void UpdateState(Actor actor)
+        public void UpdateState(Actor actor)
         {
             var enemy = actor as BasicEnemy;
             if (!enemy) return;
@@ -18,6 +18,6 @@ namespace Lucha.Actor.Enemy
             }
         }
 
-        public override void ExitState(Actor actor) { /* Clean up */ }
+        public void ExitState(Actor actor) { /* Clean up */ }
     }
 }

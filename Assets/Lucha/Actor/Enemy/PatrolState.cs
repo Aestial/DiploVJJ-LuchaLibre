@@ -2,11 +2,11 @@ using UnityEngine;
 
 namespace Lucha.Actor.Enemy
 {
-    public class PatrolState : ActorState
+    public class PatrolState : IActorState
     {
-        public override void EnterState(Actor actor) { /* Setup patrol */ }
+        public void EnterState(Actor actor) { /* Setup patrol */ }
 
-        public override void UpdateState(Actor actor)
+        public void UpdateState(Actor actor)
         {
             var enemy = actor as BasicEnemy;
             if (!enemy) return;
@@ -20,6 +20,6 @@ namespace Lucha.Actor.Enemy
             // Implement patrol logic
         }
 
-        public override void ExitState(Actor actor) { /* Clean up */ }
+        public void ExitState(Actor actor) { /* Clean up */ }
     }
 }

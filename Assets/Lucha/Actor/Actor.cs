@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,7 +14,12 @@ namespace Lucha.Actor
         protected Rigidbody Rigidbody;
         protected Collider Collider;
 
-        protected readonly Dictionary<System.Type, IActorState> States = new();
+        protected readonly Dictionary<Type, IActorState> States = new();
+        
+        // Events
+        public event Action<Type> OnStateChanged;
+        public event Action<float, float> OnHealthChanged; // current, max
+        public event Action<string> OnActorDied;
 
         protected virtual void Awake()
         {
@@ -34,6 +40,9 @@ namespace Lucha.Actor
             CurrentState?.ExitState(this);
             CurrentState = States[newStateType];
             CurrentState.EnterState(this);
+            
+            // Trigger event
+            OnStateChanged?.Invoke(newStateType);
         }
 
         protected virtual void FixedUpdate()
@@ -43,7 +52,11 @@ namespace Lucha.Actor
 
         public virtual void ReceiveDamage(DamageData damageData)
         {
+            var previousHealth = CurrentHealth;
             CurrentHealth -= damageData.Amount;
+            
+            // Trigger health change event
+            OnHealthChanged?.Invoke(CurrentHealth, maxHealth);
             
             // Apply knockback
             if (Rigidbody == null) return;
@@ -54,6 +67,10 @@ namespace Lucha.Actor
                 Die();
         }
 
-        protected abstract void Die();
+        protected virtual void Die()
+        {
+            OnActorDied?.Invoke(gameObject.name);
+        }
+        
     }
 }

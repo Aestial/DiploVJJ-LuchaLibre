@@ -1,6 +1,6 @@
 namespace Lucha.Actor
 {
-    public class IdleState : IActorState
+    public class DeadState : IActorState
     {
         public void EnterState(Actor actor)
         {
@@ -10,11 +10,7 @@ namespace Lucha.Actor
         public void UpdateState(Actor actor)
         {
             // Check for transition conditions
-            var player = actor as PlayerCharacter;
-            if (player && player.MoveInput.magnitude > 0.1f)
-            {
-                player.ChangeState(typeof(MoveState));
-            }
+            // Timeout and destroy
         }
 
         public void ExitState(Actor actor)
